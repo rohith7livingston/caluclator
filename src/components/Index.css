@@ -1,0 +1,107 @@
+.Calci
+{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 600px;
+    border: 1px black solid;
+    background-color: black;
+    border-radius: 18px;
+}
+.textfield
+{
+    width: 350px;
+    height: 100px;
+    color: black;
+    background-color: rgb(68, 68, 68);
+    font-size: 50px;
+    text-align: right;
+    border: 0px;
+    color: rgb(255, 191, 0);
+    margin-top: 30px;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Keypad
+{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 0px solid black;
+    
+}
+.buttons
+{
+    width: 75px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 0px;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    font-size: x-large;
+}
+.buttons:hover
+{
+    opacity: 0.7;
+}
+.textfield:focus,
+.buttons:focus,
+.buttons:active
+{
+    outline: none;
+}
+.equal
+{
+    grid-column: 3/5;
+    grid-row: 5;
+    width: 170px;
+    border-radius: 10px;
+    background-color: rgb(255, 155, 33);
+}
+.clear
+{
+    background-color: rgb(255, 155, 33);
+    color: white;
+    font-size: x-large;
+}
+.X
+{
+    background-color: rgb(255, 155, 33);
+}
+.reminder
+{
+    background-color: rgb(255, 155, 33);
+
+}
+.mul
+{
+    background-color: rgb(255, 155, 33);
+}
+.divison
+{
+    background-color: rgb(255, 155, 33);
+}
+.subtract
+{
+    background-color: rgb(255, 155, 33);
+}
+.add{
+    background-color: rgb(255, 155, 33);
+}
+.history
+{
+    height: 30px;
+    width: 100px;
+    margin-left: 38%;
+    color: white;
+    background-color: rgb(255, 155, 33);
+    border-radius: 7px;
+    margin-top: 6px;
+}
