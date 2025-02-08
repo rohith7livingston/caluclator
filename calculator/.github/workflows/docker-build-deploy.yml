@@ -2,9 +2,9 @@ name: Build and Deploy Calculator App
 
 on:
   push:
-    branches: [ master ]
+    branches: [ testing ]
   pull_request:
-    branches: [ master ]
+    branches: [ testing ]
 
 jobs:
   build-and-run:
